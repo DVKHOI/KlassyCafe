@@ -605,3 +605,28 @@ body{
         margin-right: 100px;
     }
 }
+@media only screen and (max-width: 768px){
+    .slider__left {
+        height: 300px;
+    }
+    .slider__left-title {
+        padding-top: 16%;
+    }
+    #about{
+        flex-direction: column;
+    }
+    .about__left{
+        width:100%;
+    }
+    .about__right{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .about__right-img{
+        width: 100%;
+    }
+    .about__right-icon{
+        position: absolute;
+        top: 40%;
+    }
+}
